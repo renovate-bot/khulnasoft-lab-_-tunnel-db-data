@@ -529,7 +529,6 @@
 	},
 	"core/v1": {
 		"Binding": {
-			"deprecation_version": "v1.6",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/core/v1/zz_generated.prerelease-lifecycle.go"
 		},
 		"ConfigMap": {
