@@ -790,6 +790,16 @@
 		}
 	},
 	"networking.k8s.io/v1beta1": {
+		"IPAddress": {
+			"deprecation_version": "v1.34",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.37"
+		},
+		"IPAddressList": {
+			"deprecation_version": "v1.34",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.37"
+		},
 		"Ingress": {
 			"deprecation_version": "v1.19",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go",
@@ -813,6 +823,16 @@
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.22",
 			"replacement_version": "networking.k8s.io.v1.IngressList"
+		},
+		"ServiceCIDR": {
+			"deprecation_version": "v1.34",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.37"
+		},
+		"ServiceCIDRList": {
+			"deprecation_version": "v1.34",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.37"
 		}
 	},
 	"networking/v1": {
