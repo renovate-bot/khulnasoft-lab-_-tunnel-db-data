@@ -1048,16 +1048,6 @@
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.37"
 		},
-		"PodSchedulingContext": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37"
-		},
-		"PodSchedulingContextList": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37"
-		},
 		"ResourceClaim": {
 			"deprecation_version": "v1.34",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
