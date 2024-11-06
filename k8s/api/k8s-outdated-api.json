@@ -85,6 +85,26 @@
 		}
 	},
 	"admissionregistration/v1alpha1": {
+		"MutatingAdmissionPolicy": {
+			"deprecation_version": "v1.35",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1alpha1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.38"
+		},
+		"MutatingAdmissionPolicyBinding": {
+			"deprecation_version": "v1.35",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1alpha1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.38"
+		},
+		"MutatingAdmissionPolicyBindingList": {
+			"deprecation_version": "v1.35",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1alpha1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.38"
+		},
+		"MutatingAdmissionPolicyList": {
+			"deprecation_version": "v1.35",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1alpha1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.38"
+		},
 		"ValidatingAdmissionPolicy": {
 			"deprecation_version": "v1.29",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/admissionregistration/v1alpha1/zz_generated.prerelease-lifecycle.go",
