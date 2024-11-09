@@ -569,16 +569,16 @@
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1/zz_generated.prerelease-lifecycle.go"
 		}
 	},
-	"coordination/v1alpha1": {
+	"coordination/v1alpha2": {
 		"LeaseCandidate": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1alpha1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37"
+			"deprecation_version": "v1.35",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1alpha2/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.38"
 		},
 		"LeaseCandidateList": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1alpha1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37"
+			"deprecation_version": "v1.35",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1alpha2/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.38"
 		}
 	},
 	"core/v1": {
