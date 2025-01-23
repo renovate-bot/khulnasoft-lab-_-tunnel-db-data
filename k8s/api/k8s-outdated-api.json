@@ -890,6 +890,12 @@
 		}
 	},
 	"networking/v1": {
+		"IPAddress": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"IPAddressList": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1/zz_generated.prerelease-lifecycle.go"
+		},
 		"Ingress": {
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1/zz_generated.prerelease-lifecycle.go"
 		},
@@ -906,6 +912,12 @@
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1/zz_generated.prerelease-lifecycle.go"
 		},
 		"NetworkPolicyList": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"ServiceCIDR": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"ServiceCIDRList": {
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/networking/v1/zz_generated.prerelease-lifecycle.go"
 		}
 	},
