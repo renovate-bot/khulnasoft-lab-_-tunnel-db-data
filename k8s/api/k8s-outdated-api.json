@@ -564,6 +564,16 @@
 			"removed_version": "v1.22",
 			"replacement_version": "coordination.k8s.io.v1.Lease"
 		},
+		"LeaseCandidate": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
+		"LeaseCandidateList": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1beta1/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
 		"LeaseList": {
 			"deprecation_version": "v1.19",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/coordination/v1beta1/zz_generated.prerelease-lifecycle.go",
