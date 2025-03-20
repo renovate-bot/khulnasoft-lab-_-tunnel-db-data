@@ -1102,6 +1102,16 @@
 			"removed_version": "v1.37",
 			"replacement_version": "resource.k8s.io.v1beta1.DeviceClassList"
 		},
+		"DeviceTaintRule": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
+		"DeviceTaintRuleList": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
 		"ResourceClaim": {
 			"deprecation_version": "v1.34",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
