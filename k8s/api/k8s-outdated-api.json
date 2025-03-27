@@ -1191,6 +1191,48 @@
 			"removed_version": "v1.38"
 		}
 	},
+	"resource/v1beta2": {
+		"DeviceClass": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1beta2/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
+		"DeviceClassList": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1beta2/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
+		"ResourceClaim": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1beta2/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
+		"ResourceClaimList": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1beta2/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
+		"ResourceClaimTemplate": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1beta2/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
+		"ResourceClaimTemplateList": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1beta2/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
+		"ResourceSlice": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1beta2/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		},
+		"ResourceSliceList": {
+			"deprecation_version": "v1.36",
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1beta2/zz_generated.prerelease-lifecycle.go",
+			"removed_version": "v1.39"
+		}
+	},
 	"scheduling.k8s.io/v1beta1": {
 		"PriorityClass": {
 			"deprecation_version": "v1.14",
