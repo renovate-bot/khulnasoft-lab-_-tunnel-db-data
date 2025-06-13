@@ -1067,19 +1067,7 @@
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1/zz_generated.prerelease-lifecycle.go"
 		}
 	},
-	"resource.k8s.io/v1alpha3": {
-		"DeviceClass": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37",
-			"replacement_version": "resource.k8s.io.v1beta1.DeviceClass"
-		},
-		"DeviceClassList": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37",
-			"replacement_version": "resource.k8s.io.v1beta1.DeviceClassList"
-		},
+	"resource/v1alpha3": {
 		"DeviceTaintRule": {
 			"deprecation_version": "v1.36",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
@@ -1089,42 +1077,6 @@
 			"deprecation_version": "v1.36",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
 			"removed_version": "v1.39"
-		},
-		"ResourceClaim": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37",
-			"replacement_version": "resource.k8s.io.v1beta1.ResourceClaim"
-		},
-		"ResourceClaimList": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37",
-			"replacement_version": "resource.k8s.io.v1beta1.ResourceClaimList"
-		},
-		"ResourceClaimTemplate": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37",
-			"replacement_version": "resource.k8s.io.v1beta1.ResourceClaimTemplate"
-		},
-		"ResourceClaimTemplateList": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37",
-			"replacement_version": "resource.k8s.io.v1beta1.ResourceClaimTemplateList"
-		},
-		"ResourceSlice": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37",
-			"replacement_version": "resource.k8s.io.v1beta1.ResourceSlice"
-		},
-		"ResourceSliceList": {
-			"deprecation_version": "v1.34",
-			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1alpha3/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37",
-			"replacement_version": "resource.k8s.io.v1beta1.ResourceSliceList"
 		}
 	},
 	"resource/v1beta1": {
