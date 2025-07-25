@@ -1097,6 +1097,32 @@
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/rbac/v1/zz_generated.prerelease-lifecycle.go"
 		}
 	},
+	"resource/v1": {
+		"DeviceClass": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"DeviceClassList": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"ResourceClaim": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"ResourceClaimList": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"ResourceClaimTemplate": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"ResourceClaimTemplateList": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"ResourceSlice": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"ResourceSliceList": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/resource/v1/zz_generated.prerelease-lifecycle.go"
+		}
+	},
 	"resource/v1alpha3": {
 		"DeviceTaintRule": {
 			"deprecation_version": "v1.36",
@@ -1248,7 +1274,8 @@
 		"VolumeAttributesClassList": {
 			"deprecation_version": "v1.32",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1alpha1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.35"
+			"removed_version": "v1.35",
+			"replacement_version": "storage.k8s.io.v1.VolumeAttributesClass"
 		}
 	},
 	"storage.k8s.io/v1beta1": {
@@ -1315,7 +1342,8 @@
 		"VolumeAttributesClass": {
 			"deprecation_version": "v1.34",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1beta1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.37"
+			"removed_version": "v1.37",
+			"replacement_version": "storage.k8s.io.v1.VolumeAttributesClass"
 		},
 		"VolumeAttributesClassList": {
 			"deprecation_version": "v1.34",
@@ -1352,6 +1380,12 @@
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1/zz_generated.prerelease-lifecycle.go"
 		},
 		"VolumeAttachmentList": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"VolumeAttributesClass": {
+			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1/zz_generated.prerelease-lifecycle.go"
+		},
+		"VolumeAttributesClassList": {
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/storage/v1/zz_generated.prerelease-lifecycle.go"
 		}
 	},
