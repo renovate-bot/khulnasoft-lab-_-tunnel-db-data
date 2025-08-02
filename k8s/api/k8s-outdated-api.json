@@ -577,14 +577,14 @@
 			"removed_version": "v1.37"
 		},
 		"PodCertificateRequest": {
-			"deprecation_version": "v1.35",
+			"deprecation_version": "v1.37",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/certificates/v1alpha1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.38"
+			"removed_version": "v1.40"
 		},
 		"PodCertificateRequestList": {
-			"deprecation_version": "v1.35",
+			"deprecation_version": "v1.37",
 			"ref": "https://github.com/kubernetes/kubernetes/tree/master/staging/src/k8s.io/api/certificates/v1alpha1/zz_generated.prerelease-lifecycle.go",
-			"removed_version": "v1.38"
+			"removed_version": "v1.40"
 		}
 	},
 	"coordination.k8s.io/v1beta1": {
